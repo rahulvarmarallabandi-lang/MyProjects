@@ -22,7 +22,7 @@ namespace MyWebApi.Controllers
 
         {
             _repo.InsertEmployee(emp);
-            return Ok("Employee inserted successfully");
+            return Ok("Rahul inserted successfully");
         }
         [HttpGet]
         public IActionResult GetById(int id)
@@ -55,3 +55,4 @@ namespace MyWebApi.Controllers
 
     }
 }
+
